@@ -5,4 +5,5 @@ comprimento = float(input("Digite Comprimento do Retângulo: "))
 largura = float(input("Digite Largura do Retângulo: "))
 altura = float(input("Digite Altura do Retângulo: "))
 volume = comprimento * largura * altura
-print(volume)
+print("")
+print("%.0f" %volume)
