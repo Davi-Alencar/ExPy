@@ -12,3 +12,27 @@ cantor = "John Mackletson, Guitarra Humana e Zubumafu"
 print(cantor[0:2])
 print(cantor[10:])
 print(cantor[:10])
+
+###
+
+print(ord(A))
+print(ord(B))
+print(ord(a))
+print(ord(1))
+
+print(chr(65))
+print(chr(66))
+print(chr(97))
+
+print("Caractere 13 é:", chr(13))
+
+
+listaCantor = ["John Mackletson", "Guitarra Humana", "Zubumafu"]
+
+for nome in listaCantor:
+    print("Hello", nome, "venha visitar!")
+
+for nome in rang[10]:
+    print("Hello" end="\t")
+
+print("apple">"Apple")
